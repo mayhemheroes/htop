@@ -17,4 +17,3 @@ RUN ./autogen.sh && ./configure && make
 FROM --platform=linux/amd64 ubuntu:20.04
 
 COPY --from=builder /htop /
-
